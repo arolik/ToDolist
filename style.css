@@ -1,0 +1,69 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-wrapper {
+    width:600px;
+    background-color: lightgray;
+    margin:0 auto;
+}
+.main-wrapper h1 {
+    text-align: center;
+}
+.create-task {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:400px;
+    height:70px;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+.create-task .btn {
+    height:25px;
+}
+.create-task .btn-task  {
+    border-radius: 15px;
+    outline:none;
+    text-transform: uppercase;
+    border:1px solid rgba(16, 162, 219, 0.301);
+    padding-left: 25px;
+}
+.create-task .btn-task:focus {
+    background-color:mediumturquoise;
+    border:1px solid rgb(7, 49, 104)
+}
+.create-task .btn-add-task {
+    outline: none;
+    border:1px solid rgb(7, 68, 119);
+    border-radius: 5px;
+    background-color: #4676D7;
+    color:#fff;
+}
+.create-task .btn-add-task:hover {
+    background: rgb(22, 194, 194);
+    cursor:pointer;
+}
+.create-task .btn-add-task:focus {
+    outline: none;
+}
+ h2 {
+    text-align: center;
+}
+.lists {
+    width:90%;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
