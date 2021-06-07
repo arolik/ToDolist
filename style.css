@@ -6,6 +6,7 @@ body {
     width:600px;
     background-color: lightgray;
     margin:0 auto;
+    padding-bottom: 20px;
 }
 .main-wrapper h1 {
     text-align: center;
@@ -54,11 +55,30 @@ body {
     width:90%;
     margin: 10px auto;
 }
-
-
-
-
-
+.task {
+    width: 90%;
+    margin: 10px auto;
+    background:lightblue;
+    display:flex;
+    justify-content: space-between;
+}
+.task p {
+    margin: 0 0;
+    flex-grow: 2;
+    
+}
+.task p, input, span {
+    display:block;
+}
+.task input {
+    margin-top:5px;
+}
+.task span:hover {
+    cursor:pointer;
+}
+.hideTask {
+    opacity: 0.5;
+}
 
 
 
